@@ -15,6 +15,11 @@ import java.util.Arrays;
 //    }
 //}
 
+//What I learned:
+//I need .length to get the length
+//I return arrays with curly braces
+//Need to remember to have a case for illegal arguments
+
 public class TwoSum {
 
     int[] myList;
@@ -42,5 +47,4 @@ public class TwoSum {
         int[] newList = twosum.calculate(myList, 8);
         System.out.println(Arrays.toString(newList));
     }
-
 }
